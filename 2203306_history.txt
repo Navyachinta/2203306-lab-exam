@@ -330,3 +330,28 @@
   330  rm 2203306_history.txt
   331  history >> 2203306 =
   332  history >> 2203306_history.txt
+  333  git add 2203306_history.txt
+  334  git commit -m "first commit"
+  335  git push origin master
+  336  git push origin main
+  337  ls
+  338  rm 2203306_data_filter.sh
+  339  vim part3.sh
+  340  bash part3.sh us_500.csv city montreal
+  341  vim part3.sh
+  342  bash part3.sh us_500.csv city montreal
+  343  ls
+  344  mkdir code
+  345  mkdir data
+  346  cp part3.sh ~/2203306-lab-exam/code
+  347  cp *.csv ~/2203306-lab-exam/data
+  348  ls
+  349  git add code
+  350  git commit -m "codes"
+  351  git push origin main
+  352  gity add data
+  353  git add data
+  354  git commit -m "datas"
+  355  git push origin main
+  356  rm 2203306_history.txt
+  357  history >> 2203306_history.txt
