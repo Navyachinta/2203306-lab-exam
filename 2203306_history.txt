@@ -1,0 +1,332 @@
+    1  git log
+    2  .git
+    3  ls
+    4  ls -al
+    5  git cs102-git-essentials
+    6  exit
+    7  git clone git@github.com:Navyachinta/cs102-git-essentials.git
+    8  git clone https://github.com/Navyachinta/cs102-git-essentials.git
+    9  git status
+   10  git log
+   11  git --version 
+   12  git config --global user.name "Navyachinta"
+   13  git config --global user.email "navyachinta231@gmail.com"
+   14  cat .gitconfig
+   15  git config --global core.autocrlf input
+   16  git config --global core.safecrlf true
+   17  cat .gitconfig
+   18  ls -la ~/.ssh | grep 'id_rsa'
+   19  ssh-keygen -t RSA
+   20  ls -la ~/.ssh | grep 'id_rsa'
+   21  cat id_rsa
+   22  copy id_rsa
+   23  cat id_rsa.pub
+   24  Cat .ssh/id_rsa.pub
+   25  cat
+   26  ls -als .ssh/id_rsa.pub
+   27  ls -als id_rsa.pub
+   28  ls -als
+   29  cd .ssh
+   30  ls -als
+   31  cat id_rsa.pub
+   32  cd
+   33  git clone git@github.com:Navyachinta/cs102-git-essentials.git
+   34  git remote -v
+   35  .git
+   36  git add file_name.extension 
+   37  exit
+   38  cat .git config
+   39  git status
+   40  ls -als
+   41  cd cs102-git-essentials
+   42  git status
+   43  ls -als
+   44  cat file_name.extension
+   45  vim file_name.extension
+   46  cat file_name.extension
+   47  git diff
+   48  vim file_name.extension
+   49  git diff
+   50  cd
+   51  cat ..
+   52  cat .git config
+   53  cat .gitconfig
+   54  git clone https://github.com/Navyachinta/Navyachinta.github.io.git
+   55  ls -als
+   56  cd Navyachinta.github.io
+   57  echo "Hello World" > index.html
+   58  git add --all
+   59  git commit -m "Initial commit"
+   60  git push -u origin main
+   61  git push -u origin master
+   62  git push -u origin main
+   63  git push -u origin master
+   64  git remote add origin https://github.com/Navyachinta/Navyachinta.github.io.git
+   65  git push -u origin main
+   66  git push origin main
+   67  cd
+   68  rm -rf Navyachinta.github.io
+   69  git clone git@github.com:Navyachinta/Navyachinta.github.io.git
+   70  ls -als
+   71  cd Navyachinta.github.io
+   72  echo "Hello World" > index.html
+   73  git add --all
+   74  git commit -m "Initial commit"
+   75  git push -u origin main
+   76  git push -u origin master
+   77  git status
+   78  git log
+   79  cd
+   80  ls -als
+   81  cd cs102-git-essentials
+   82  ls -als
+   83  git commit -m "local: added cs102 lecture notes.”
+   84  git commit -m "local: added cs102 lecture notes"
+   85  git push origin main
+   86  git status
+   87  cat cs102-lecture-notes.txt
+   88  git pull origin main
+   89  cat cs102-lecture-notes.txt
+   90  git pull origin main
+   91  ls -als
+   92  cat cs102-lecture-notes.txt
+   93  git log
+   94  vim cs102-lecture-notes.txt
+   95  git status
+   96  git add .
+   97  git status
+   98  git diff
+   99  git diff --staged
+  100  touch cs-102-imp.txt
+  101  git status
+  102  git add .
+  103  git status
+  104  git commit --amend
+  105  git log
+  106  git push origin main
+  107  git commit --amend -m "latest one"
+  108  git status
+  109  git log
+  110  git push origin main
+  111  git commit -m "everything is modified"
+  112  git log
+  113  git add .
+  114  git log
+  115  git push origin main
+  116  git pull origin main
+  117  git push origin main
+  118  git log
+  119  cd
+  120  ls -als
+  121  cd Navyachinta.github.io
+  122  cd
+  123  rm -rf Navyachinta.github.io
+  124  ls -als
+  125  git clone git@github.com:Navyachinta/Navyachinta.github.io.git
+  126  ls -als
+  127  git push origin main
+  128  cd Navyachinta.github.io
+  129  cat README.MD
+  130  cat README.md
+  131  cd
+  132  cd Navyachinta.github.io
+  133  ls -als
+  134  vim README.md
+  135  git push origin main
+  136  git pull origin main
+  137  git push origin main
+  138  git pull origin main
+  139  git push origin main
+  140  git pull origin main
+  141  git push origin main
+  142  git log
+  143  vim README.md
+  144  git status
+  145  git add.
+  146  git add .
+  147  git status
+  148  git push origin main
+  149  git pull origin main
+  150  git push origin main
+  151  git push origin master
+  152  git pull origin main
+  153  touch README.md
+  154  vim README.md
+  155  git status
+  156  git pull origin main
+  157  git push origin main
+  158  rm -rf README.MD
+  159  rm -rf README.md
+  160  ls -als
+  161  touch README.md
+  162  vim README.md
+  163  git status
+  164  git add .
+  165  git status
+  166  git push origin main
+  167  git pull origin main
+  168  git push origin main
+  169  cd
+  170  ls -als
+  171  rm -rf Navyachinta.github.io
+  172  ls -als
+  173  git clone git@github.com:Navyachinta/Navyachinta.github.io.git
+  174  ls -als
+  175  cd Navyachinta.github.io
+  176  ls -als
+  177  vim README.md
+  178  git commit -m "intial commit"
+  179  git add .
+  180  git status
+  181  git push origin main
+  182  git diff --staged
+  183  git log
+  184  git add README.md
+  185  ls -als
+  186  git status
+  187  git push origin main
+  188  touch READ.md
+  189  vim README.md
+  190  vim READ.md
+  191  vim README.md
+  192  vim READ.md
+  193  git add READ.md
+  194  ls -als
+  195  git status
+  196  git add .
+  197  git status
+  198  git log
+  199  git commit -m "intial commit"
+  200  git log
+  201  git push origin main
+  202  exit
+  203  who
+  204  exit
+  205  git clone git@github.com:Navyachinta/2203306-lab-exam.git
+  206  touch README.md
+  207  git commit -m "my intial commit"
+  208  git push origin main
+  209  git add README.md
+  210  git add .
+  211  ls -als
+  212  cat README.md
+  213  git pull origin main
+  214  rm -rf 2203306-lab-exam
+  215  ls -als
+  216  git clone git@github.com:Navyachinta/2203306-lab-exam.git
+  217  cd 2203306-lab-exam
+  218  git clone git@github.com:tusharlone/cs102-git-essentials.git
+  219  ls -als
+  220  git pull origin main
+  221  ls -als
+  222  cd cs102-git-essentials
+  223  ls -als 
+  224  scp us_500.csv 2203306-lab-exam
+  225  scp ca_500.csv 2203306-lab-exam
+  226  cd
+  227  ls -als
+  228  ls
+  229  ls 
+  230  ls -als
+  231  cd cs102-git-essentials
+  232  cp us-500.csv 2203306-lab-exam
+  233  cp us_500.csv 2203306-lab-exam
+  234  cd
+  235  cd 2203306-lab-exam
+  236  ls
+  237  scp ca_500.csv 2203306@10.250.1.67 ~/.
+  238  scp ca_500.csv 2203306@10.250.1.67:~/.
+  239  ls
+  240  cd
+  241  ls
+  242  man scp
+  243  ls -alsd
+  244  ls -als
+  245  cd 2203306-lab-exam
+  246  cd cs102-git-essentials
+  247  scp ca_500.csv 2203306@10.250.1.67:~/.
+  248  scp us_500.csv 2203306@10.250.1.67:~/.
+  249  cd
+  250  2203306-lab-exam
+  251  cd 2203306-lab-exam
+  252  ls
+  253  cd
+  254  ls
+  255  scp ca_500.csv 2203306-lab-exam
+  256  scp us_500.csv 2203306-lab-exam
+  257  cd 2203306-lab-exam
+  258  ls
+  259  wc -l ca_500.scv
+  260  wc -l ca_500.csv
+  261  vim ca_city_Monteral.csv
+  262  bash ca_city_Monteral.csv
+  263  vim ca_city_Monteral.csv
+  264  bash ca_city_Monteral.csv
+  265  vim ca_city_Monteral.csv
+  266  bash ca_city_Monteral.csv
+  267  vim ca_city_Monteral.csv
+  268  bash ca_city_Monteral.csv
+  269  vim ca_city_Monteral.csv
+  270  bash ca_city_Monteral.csv
+  271  vim ca_city_Monteral.csv
+  272  bash ca_city_Monteral.csv
+  273  vim ca_city_Monteral.csv
+  274  bash ca_city_Monteral.csv
+  275  vim ca_city_Monteral.csv
+  276  bash ca_city_Monteral.csv
+  277  touch 2203306_data_filter.sh
+  278  touch 2203306_history.txt
+  279  vim 2203306_history.txt
+  280  vim 2203306_data_filter.sh
+  281  cd
+  282  ls -als
+  283  cd Navyachinta.github.io
+  284  ls -als
+  285  vim READ.md
+  286  cd
+  287  rm -rf Navyachinta.github.io
+  288  git clone git@github.com:Navyachinta/Navyachinta.github.io.git
+  289  cd Navyachinta.github.io
+  290  git pull origin main
+  291  cd
+  292  cd 2203306-lab-exam
+  293  ls
+  294  history
+  295  ls
+  296  git push origin main
+  297  git status
+  298  git add .
+  299  git push origin main
+  300  git commit -m "first commit"
+  301  git push origin main
+  302  git status
+  303  git add .
+  304  git status
+  305  git add .
+  306  git status
+  307  git commit -m "first commit"
+  308  git commit -m " my first commit"
+  309  git add cs102-git-essentials
+  310  git status
+  311  git add *
+  312  git status
+  313  ls
+  314  git rm cs102-git-essentials
+  315  git rm cs102-git-essentials/
+  316  rm -r cs102-git-essentials/
+  317  y
+  318  git status 
+  319  git rm cs102-git-essentials
+  320  git status 
+  321  ls
+  322  git commit -m "lastest one "
+  323  git pull origin main
+  324  git push origin main
+  325  git status
+  326  exit
+  327  cd 2203306-lab-exam
+  328  ls
+  329  history
+  330  rm 2203306_history.txt
+  331  history >> 2203306 =
+  332  history >> 2203306_history.txt
