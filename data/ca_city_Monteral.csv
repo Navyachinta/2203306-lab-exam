@@ -1,0 +1,19 @@
+for i in *.csv
+do
+	echo "Total number of records"
+	wc -l "$i"
+done
+
+for i in *.csv
+do
+	echo "first line of the file "
+	head -1 "$i"
+done
+
+
+
+echo "the lines containing the word Montreal"
+grep -i Montreal ca_500.csv
+
+	
+	
